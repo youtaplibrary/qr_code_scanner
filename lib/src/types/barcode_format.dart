@@ -95,7 +95,7 @@ extension BarcodeTypesExtension on BarcodeFormat {
       case 'RSS_EXPANDED':
         return BarcodeFormat.rssExpanded;
       case 'UPC_A':
-        return BarcodeFormat.upcA;
+        return BarcodeFormat.ean13;
       case 'UPC_E':
         return BarcodeFormat.upcE;
       case 'UPC_EAN_EXTENSION':
